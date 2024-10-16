@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+   
+    background: url('8.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+}
+.head{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    display: flex;
+
+}
+.logo img{
+      position: absolute;
+      width: 300px;
+      padding-bottom: 1000px;
+     /* padding-block: 5rem ;*/
+     }
+.nav-bar a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+    border-bottom: 3px solid goldenrod;
+}
+.nav-bar a:hover,
+.nav-bar a.active{
+    color: goldenrod;
+    border-bottom: 3px solid red;
+
+}
+.home{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    padding: 0 10%;
+
+}
+.home-content{
+    background:;
+    max-width: 700px;
+}
+.home-content h1{
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.home-content h3{
+    color: darkcyan;
+    font-size: 35px;
+    font-weight: 700;
+}
+.home-content p {
+    font-size: 18px;
+    margin: 20px 0 40px;
+}
+.home-content .btn-box{
+    width: 350px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-box a {
+    text-decoration: none;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    border: 2px solid #00abf0;
+    border-radius: 8px;
+    display: inline-flex;
+    color: black;
+    font-size: 19px;
+    background: #00abf0;
+    letter-spacing: 1px;
+    font-weight: 600;
+    z-index: 1;
+    transition: .3s;
+
+}
+.btn-box a:nth-child(2){
+    background: transparent;
+    color: #00abf0;
+}
+.btn-box a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: red;
+    z-index: -1;
+    transition: .5s;
+
+}
+.btn-box a:hover::before{
+    width: 100%;
+}
+.home-sci{
+    position: absolute;
+    bottom: 40px;
+    width: 190px;
+    background: transparent;
+    padding-bottom: 120px;
+    padding-left: 2px;
+}
+.home-sci a {
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #00abf0;
+    border-radius: 50%;
+    font-size: 20px;
+    color: ;
+    justify-content: space-between 50px;
+}
+.home-sci:hover{
+    background: transparent;
+    transition: 0.9s;
+    border: 0px solid red;
+}

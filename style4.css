@@ -1,0 +1,103 @@
+body{
+background: blue;
+margin:0;
+padding:0;
+font-family:Sans-seriff;
+}
+.box{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+width:300px;
+height:600px;
+padding:40px;
+text-align:center;
+background: url(8.jpg);
+border-radius:20px;
+padding-inline:80px;
+align-items: left;
+}
+.box h1{
+color: #2ecc71;
+text-transform:uppercase;
+font-family:sans-serif;
+font-size:bold;
+}
+.box input[type="text"], .box input[type="password"]{
+border:0;
+display:block;
+background:none;
+outline:none;
+color:white;
+text-align:center;
+margin:10px auto;
+border:1px solid green;
+padding:14px 20px;
+border-radius:25px;
+transition:25s;
+width:290px
+}
+.box select{
+border:0;
+display:block;
+background:none;
+outline:none;
+color:white;
+text-align:center;
+margin:10px auto;
+border:1px solid green;
+padding:14px 20px;
+border-radius:25px;
+transition:25s;
+width:290px
+}
+.box input{
+border:0;
+display:block;
+background:none;
+outline:none;
+color:white;
+text-align:center;
+margin:10px auto;
+border:1px solid green;
+padding:14px 20px;
+border-radius:25px;
+transition:25s;
+width:290px;
+}
+
+.box button{
+border:0;
+display:block;
+background:none;
+outline:none;
+color:white;
+text-align:center;
+margin:10px auto;
+border:1px solid green;
+padding:14px 20px;
+border-radius:10px;
+transition:25s;
+}
+.box h3{
+color:white;
+}
+.box a{
+text-decoration:none;
+color:white;
+}
+.box option{
+background-color:black;
+align:left;
+}
+.help {
+display:flex;
+color:black;
+background:gold;
+text-align:center;
+font-size:50px;
+width:300px;
+height:250px;
+
+}

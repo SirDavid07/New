@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-size: cover;
+    
+
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0.s)50% rgba(0,0,0.s)50%), url(1.jpg);
+    background-position: left;
+    background-size: cover;
+    height: 500rem;
+    background: url(1.jpg);
+    background-size: 100%;
+}
+.navbar{
+    width: auto;
+    height: 75px;
+    margin: auto;
+    border: 4px solid transparent;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+}
+.icon{
+    width: 20rem;
+    float: left;
+    height: 70px;
+    padding-right: 40px;
+    }
+    .logo{
+        color: orange;
+        font-size: 35px;
+        font-family: Arial;
+        padding-left: 2px;
+        float: left;
+        padding-top: 10px;
+
+    }
+    .menu{
+        width: 400px;
+        float: left;
+        height: 70px;
+        align-items: right;
+
+    }
+    ul{
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+    }
+    ul li a{
+        text-decoration: none;
+        color: #fff;
+        font-family: Arial;
+        font-weight: bold;
+        transition: 0.4s ease-in-out;
+    }
+    ul li a:hover{
+        color: orange;
+        border: 3px solid green;
+        background-color: black;
+        border-radius: 9px;
+    }
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+    padding-right:1px;
+    padding-bottom: 90px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid orange;
+    margin-top: 15px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: right;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    background: orange;
+    border: 2px solid orange;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+width: 1200px;
+height: auto;
+margin: auto;
+color: #fff;
+position: relative;
+
+}
+.content .par{
+padding-left: 100px;
+padding-bottom: 25px;
+font-family: Arial;
+letter-spacing: 1.2px;
+line-height: 30px;
+
+}
+.content h1{
+    font-family: 'Times New Roman', Times, serif;
+    font: 9px;
+    padding-left: 0px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+    font-size: 60px;
+    padding-right: 50px;
+
+}
+.content .cn{
+    width: 150px;
+    height: 40px;
+    background: orangered;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 4s ease;
+}
+.content .cn a{
+    text-decoration: none;
+    color: black;
+    transition: 3s ease;
+}
+.cn:hover{
+
+    background-color: #fff;
+}
+
+.content span{
+    color: orange;
+}
+
+    .icon img{
+        padding-top: 15px;
+        width: 10px;
+        border-radius: 30px;
+        border: none;
+        padding-left: 2px;
+    }
